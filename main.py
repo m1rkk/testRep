@@ -7,6 +7,6 @@ for c in text:
     chars.append(c)
 for letter in chars:
     if morza.__contains__(letter):
-        ans += morza[letter]
+        ans += " " + morza[letter]
 
 print(ans)
