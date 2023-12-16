@@ -1,14 +1,5 @@
-f = open('l.txt')
-
-ints = []
-
-try:
-    for line in f:
-        ints.append(int(line))
-except ValueError:
-    print("eto ne chislo")
-except:
-    print("all good")
-finally:
-    f.close()
-    print("file closed")
+text = str(input())
+chars = []
+for c in text:
+    chars.append(c)
+print(chars)
